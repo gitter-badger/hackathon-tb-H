@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="/javascripts/index.js"></script>
+        <title>Sample4</title>
+    </head>
+    <body>
+        <h1>Sample4</h1>
+        <h3>フォームの値を取得する</h3>
+        <p>
+            テキストボックスに値を入力してください<br />
+            フォームに値を入力していないときはポップアップは表示されません<br />
+            <input type="text" id="text1" value="">
+            <input type="button" value="GET" onclick="popupValue();">
+        </p>
+
+        <h3>フォームに値をセットする</h3>
+        <p>
+            SETボタンを押してください<br />
+            <input type="button" value="SET" onclick="setValue();">
+            <div id="text2"></div>
+        </p>
+    </body>
+</html>
